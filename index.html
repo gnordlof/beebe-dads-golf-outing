@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beebe Dad's Golf Outing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">BD</span><span>Beebe Dad's Golf Outing</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="rules.html">Rules</a>
+      <a href="players.html">Players</a>
+      <a href="draft.html">Draft</a>
+      <a href="matchups.html">Matchups</a>
+      <a href="scoreboard.html">Scoreboard</a>
+      <a href="prize-pool.html">Prize Pool</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="course-scene" aria-hidden="true">
+        <div class="course-sky"></div>
+        <div class="fairway"></div>
+        <div class="green-shape"></div>
+        <div class="pin"></div>
+        <div class="cup"></div>
+        <div class="ball ball-one"></div>
+        <div class="ball ball-two"></div>
+      </div>
+      <div class="hero-content">
+        <span class="eyebrow">Team White vs Team Blue</span>
+        <h1>Beebe Dad's Golf Outing</h1>
+        <p>Twenty-four golfers, two twelve-man teams, six better-ball matches, and one clean scoreboard for draft night and outing day.</p>
+        <div class="hero-actions">
+          <a class="button" href="draft.html">Open Draft Board</a>
+          <a class="button button-secondary" href="scoreboard.html">View Scoreboard</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-band">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Event Overview</span>
+            <h2>Simple format, live decisions</h2>
+            <p>The draft and matchups start empty until the live draft on July 23, 2026. Scores and bonus points can be entered by hand during the outing.</p>
+          </div>
+        </div>
+        <div class="stat-grid" data-home-stats></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Draft Snapshot</span>
+            <h2>Teams stay blank until draft night</h2>
+          </div>
+        </div>
+        <div class="team-grid" data-team-snapshot></div>
+        <div class="quick-links">
+          <a class="quick-link" href="rules.html"><strong>Rules</strong><span>Format, points, ties, and bonus scoring.</span></a>
+          <a class="quick-link" href="players.html"><strong>Players</strong><span>All golfers with index and white tee course handicap.</span></a>
+          <a class="quick-link" href="prize-pool.html"><strong>Prize Pool</strong><span>$75 buy-in, 24 golfers, and $1,800 total pot.</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="section-inner">
+      <span>&copy; <span data-current-year></span> Beebe Dad's Golf Outing</span>
+      <a href="scoreboard.html">Scoreboard</a>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

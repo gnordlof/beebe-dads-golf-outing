@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Players | Beebe Dad's Golf Outing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="players">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">BD</span><span>Beebe Dad's Golf Outing</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="rules.html">Rules</a>
+      <a href="players.html">Players</a>
+      <a href="draft.html">Draft</a>
+      <a href="matchups.html">Matchups</a>
+      <a href="scoreboard.html">Scoreboard</a>
+      <a href="prize-pool.html">Prize Pool</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-title">
+      <div class="section-inner">
+        <span class="eyebrow">Players</span>
+        <h1>Golfers and white tee course handicaps</h1>
+        <p>Course-adjusted handicaps are shown exactly as entered in the editable data file.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="table-tools"><label><span>Search golfers</span><input type="search" data-player-filter placeholder="Type a name"></label></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Golfer</th><th>Index</th><th>White Tee Course HCP</th></tr></thead>
+            <tbody data-player-table></tbody>
+          </table>
+        </div>
+        <div class="player-cards" data-player-cards></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="section-inner">
+      <span>&copy; <span data-current-year></span> Beebe Dad's Golf Outing</span>
+      <a href="draft.html">Draft Board</a>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

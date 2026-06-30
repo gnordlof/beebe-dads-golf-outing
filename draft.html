@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Draft Board | Beebe Dad's Golf Outing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="draft">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">BD</span><span>Beebe Dad's Golf Outing</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="rules.html">Rules</a>
+      <a href="players.html">Players</a>
+      <a href="draft.html">Draft</a>
+      <a href="matchups.html">Matchups</a>
+      <a href="scoreboard.html">Scoreboard</a>
+      <a href="prize-pool.html">Prize Pool</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-title">
+      <div class="section-inner">
+        <span class="eyebrow">Live Draft: July 23, 2026</span>
+        <h1>Draft Board</h1>
+        <p>Players begin unassigned. After the live draft, assign each golfer to Team White or Team Blue.</p>
+      </div>
+    </section>
+
+    <section class="section"><div class="section-inner" data-draft-board></div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="section-inner">
+      <span>&copy; <span data-current-year></span> Beebe Dad's Golf Outing</span>
+      <a href="matchups.html">Matchups</a>
+    </div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
