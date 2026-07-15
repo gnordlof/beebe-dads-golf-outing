@@ -35,7 +35,7 @@ window.OUTING_DATA = {
     { id: "brandon-rusboldt", name: "Brandon Rusboldt", index: 25, courseHcp: 22 },
     { id: "john-fiorelli", name: "John Fiorelli", index: 28, courseHcp: 26 },
     { id: "haider-istanbouli", name: "Haider Istanbouli", index: 30, courseHcp: 28 },
-    { id: "andreas-damianides", name: "Andreas Damianides", index: 30, courseHcp: 28 },
+    { id: "andreas-damianides", name: "Andreas Damianides", index: 20, courseHcp: 17 },
     { id: "mahir-dossaji", name: "Mahir Dossaji", index: 30, courseHcp: 28 },
     { id: "raj-rawalji", name: "Raj Rawalji", index: 30, courseHcp: 28 },
     { id: "brandon-bieber", name: "Brandon Bieber", index: 30, courseHcp: 28 },
